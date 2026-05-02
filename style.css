@@ -273,10 +273,10 @@ body {
 
 .center-image {
   position: absolute;
-  right: max(130px, calc((100vw - 1220px) / 2 + 120px));
+  right: max(74px, calc((100vw - 1220px) / 2 + 36px));
   bottom: 0;
   z-index: 4;
-  width: clamp(340px, 27vw, 455px);
+  width: min(47vw, 700px);
   max-width: none;
   margin-top: 0;
   animation: heroPortraitIn 1s ease both 0.12s;
@@ -303,8 +303,8 @@ body {
 
 .home-status {
   position: absolute;
-  right: max(130px, calc((100vw - 1220px) / 2 + 120px));
-  bottom: 82px;
+  right: max(70px, calc((100vw - 1220px) / 2 + 28px));
+  bottom: 112px;
   z-index: 4;
   display: flex;
   align-items: center;
