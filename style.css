@@ -345,6 +345,13 @@ body {
   color: #232531;
 }
 
+.about-section,
+.projects-section,
+.contact-section {
+  content-visibility: auto;
+  contain-intrinsic-size: 900px;
+}
+
 .about-section::before {
   content: "ABOUT";
   position: absolute;
